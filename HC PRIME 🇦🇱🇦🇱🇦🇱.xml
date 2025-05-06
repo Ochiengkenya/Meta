@@ -1,6 +1,6 @@
 <xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
   <variables>
-    <variable id="=Qf5;-:?AnUz(5H1.j,t">Stake</variable>
+    <variable id="=Qf5;-:?AnUz(2H1.j,t">Stake</variable>
     <variable id="Tj:Erd(X$U?X!wAp6EEK">Loss</variable>
     <variable id="y)]y~_3Jz*#8|rjjKXkv">Win Stake</variable>
     <variable id=";N$M{^P~Dk4!6zYcbKc4">text1</variable>
@@ -11,18 +11,18 @@
     <variable id=")S1j1N@-}04K|X15).hx">Random</variable>
     <variable id="/U8r~xBZ.LoBSY=*d8tO">Øchiengkenya 🇰🇪</variable>
     <variable id="JW|0lqIE6{`{GMz;sITd">Stop Loss</variable>
-    <variable id="M=g_Gay,5Za*Wac{m26;">text3</variable>
+    <variable id="M=g_Gay,5Za*Wac{m13;">text3</variable>
     <variable id="@0?.BSH2L$0IaDEMxe$l">text5</variable>
     <variable id="HbuYn?AgGx}6C7%?c-BK">text</variable>
   </variables>
-  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="15" y="117">
+  <block type="trade_definition" id="dWqE~[^(G0b7V-D2XL*" deletable="false" x="12" y="V9">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="%Xd1g1K(|-^Poz$_kM{Y" deletable="false" movable="false">
         <field name="MARKET_LIST">synthetic_index</field>
         <field name="SUBMARKET_LIST">random_index</field>
         <field name="SYMBOL_LIST">1HZ25V</field>
         <next>
-          <block type="trade_definition_tradetype" id="sr%H/^Y9,d0w+?4mH@4n" deletable="false" movable="false">
+          <block type="trade_definition_tradetype" id="sr%H/^Y9,d0w+?1mH@2n" deletable="false" movable="false">
             <field name="TRADETYPECAT_LIST">digits</field>
             <field name="TRADETYPE_LIST">overunder</field>
             <next>
@@ -100,7 +100,7 @@
                                 </value>
                                 <next>
                                   <block type="variables_set" id="[|mdJi/3*N!b1ZZ:T/YG">
-                                    <field name="VAR" id="JW|0lqIE6{`{GMz;sITd">Stop Loss</field>
+                                    <field name="VAR" id="JW|0lqIE3{`{GMz;sITd">Stop Loss</field>
                                     <value name="VALUE">
                                       <block type="math_number" id="R]Qp;sY1{bVaV880Uqv!">
                                         <field name="NUM">1500</field>
